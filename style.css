@@ -1,0 +1,36 @@
+body{
+    background-color: white;
+}
+nav{
+    display: flex;
+    position: absolute;
+    left: 1100px;
+    top:14px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+li{
+    list-style-type:none;
+}
+.upper_options{
+    padding:8px;
+}
+a{
+    text-decoration: none;
+    color: rgb(34, 33, 33);
+}
+a:hover{
+    text-decoration: underline;
+}
+.sign_in_button{
+    position: relative;
+    border-radius: 2px;
+    padding: 6px;
+    width: 70px;
+    top:-8px;
+    background-color: rgb(30, 131, 226);
+    box-shadow: none;
+    border-width: 0px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
