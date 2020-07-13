@@ -61,3 +61,31 @@ section{
     border-width: 0px;
     border-radius: 5px;
 }
+footer{
+    display: flex;              /* establish flex container */
+    flex-direction: column;
+    background-color:  #f2f2f2;
+    padding: 5px;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+}
+.country{
+    padding: 12px;
+    border-bottom: 1px solid #e4e4e4;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.lower_options{
+    padding:8px;
+}
+.bottom-navigation{
+    display: flex;
+    padding-top: 10px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bottom-navigation_right{
+    position: relative;
+    left:790px;
+}
