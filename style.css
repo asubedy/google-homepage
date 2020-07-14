@@ -4,7 +4,7 @@ body{
 nav{
     display: flex;
     position: absolute;
-    left: 1100px;
+    left: 1120px;
     top:14px;
     font-size: 13px;
     font-family: Arial, Helvetica, sans-serif;
@@ -13,7 +13,7 @@ li{
     list-style-type:none;
 }
 .upper_options{
-    padding:8px;
+    padding:6px;
 }
 a{
     text-decoration: none;
@@ -22,17 +22,31 @@ a{
 a:hover{
     text-decoration: underline;
 }
+.app
+{
+    width: 35px;
+    position: relative;
+    top:-2px;
+    opacity: 0.4;
+}   
+.app:hover{
+    opacity:1;
+}
 .sign_in_button{
     position: absolute;
     border-radius: 2px;
     padding: 6px;
     width: 70px;
     top:-2px;
-    background-color: rgb(30, 131, 226);
+    background-color: #4386f9;
     box-shadow: none;
     border-width: 0px;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+}
+.sign_in_button:hover{
+    border-bottom-width: 0.6px;
+    border-bottom-color: #508cf5;
 }
 section{
     display: flex;              /* establish flex container */
@@ -46,11 +60,19 @@ section{
     border-radius: 50px;
     padding: 10px;
     border-width: 0.1px;
+    border-style: solid;
     outline:none;
     font-size: 16px;
+    padding-left: 42px;
+}
+.search{
+    width: 20px;
+    position: relative;
+    top:4px;
+    right:555px;
 }
 .button-below-search{
-    padding-top:40px;
+    padding-top:30px;
 }
 .google-search, .lucky{
     padding:10px;
@@ -60,6 +82,9 @@ section{
     background-color: #f2f2f2;
     border-width: 0px;
     border-radius: 5px;
+}
+.google-search:hover, .lucky:hover{
+    border:1px solid #f2f2f2;
 }
 footer{
     display: flex;              /* establish flex container */
@@ -75,6 +100,7 @@ footer{
     padding: 12px;
     border-bottom: 1px solid #e4e4e4;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
 }
 .lower_options{
     padding:8px;
