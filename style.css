@@ -31,6 +31,7 @@ a:hover{
 }   
 .app:hover{
     opacity:1;
+    cursor: pointer;
 }
 .sign_in_button{
     position: absolute;
@@ -72,7 +73,7 @@ section{
     right:555px;
 }
 .button-below-search{
-    padding-top:30px;
+    padding-top:30px;    
 }
 .google-search, .lucky{
     padding:10px;
@@ -80,11 +81,16 @@ section{
     padding-right: 15px;
     text-align: center;
     background-color: #f2f2f2;
-    border-width: 0px;
+    border-width: 1px;
+    border-style: solid;
     border-radius: 5px;
+    border-color: #f2f2f2;
+    
 }
 .google-search:hover, .lucky:hover{
-    border:1px solid #f2f2f2;
+    border:1px solid #dddcdc;
+    cursor: pointer;
+    
 }
 footer{
     display: flex;              /* establish flex container */
